@@ -1,0 +1,105 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.visible-hidden {
+  display: none;  
+}
+
+.content-area {
+  box-sizing: border-box;
+  min-width: 860px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px 5px #e3e3e3;
+  border-top: 1
+}
+
+.main-header {
+  position: relative;
+  margin: 0;  
+}
+
+.main-logo {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 55px;
+  padding: 0 6%;
+}
+
+.main-nav a {
+  width: 20%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.main-nav a:nth-child(3),
+.main-nav a:nth-child(4) {
+  text-align: right;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  background: url(../img/sedona-foto.jpg) no-repeat;
+  background-position: 50% -48px;
+  background-size: 100% auto;
+  width: 100%;
+  height: 725px;
+  outline: 1px dashed blue;
+}
+
+.banner-sign {
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url(../img/banner-sign.png) no-repeat;
+  height: 352px;
+  width: 458px;
+}
+
+.banner-bottom {
+ /*
+  background: url(../img/banner-mask.png) no-repeat 0 0;
+  background-size: 100% auto;
+  /*height: 273px;
+  height: 40%;
+  outline: 1px dotted green;
+  */
+}
+
+.banner-description {
+  display: block;
+  margin: 100px auto 0;
+  /*position: absolute;*/
+  width: 550px;
+}
+
+.banner-description h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-description p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+}
