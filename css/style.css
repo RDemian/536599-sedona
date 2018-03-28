@@ -1,15 +1,15 @@
 /*@font-face {
-  font-family: 'PT Sans';
-  src: url('../fonts/web/ptsans.woff') format('woff'),
-  url('../fonts/web/ptsans.woff2') format('woff2');
+  font-family: "PT Sans";
+  src: url("../fonts/web/ptsans.woff") format("woff"),
+  url("../fonts/web/ptsans.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PT Sans';
-  src: url('../fonts/web/ptsansbold.woff') format('woff'),
-  url('../fonts/web/ptsansbold.woff2') format('woff2');
+  font-family: "PT Sans";
+  src: url("../fonts/web/ptsansbold.woff") format("woff"),
+  url("../fonts/web/ptsansbold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }*/
@@ -33,7 +33,7 @@ html {
 body {
   background-color: #f2f2f2;
   margin: 0;
-  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: black;
@@ -160,7 +160,7 @@ a {
   justify-content: flex-end;
   position: relative;
   background-color: #81b3d2;
-  background: url('../img/sedona-foto.jpg') no-repeat;
+  background: url("../img/sedona-foto.jpg") no-repeat;
   background-position: 0 29%;
   background-size: 100% auto;
   width: 100%;
@@ -168,8 +168,8 @@ a {
 }
 
 .banner::after {
-  content: '';
-  background: url('../img/banner-mask.png') no-repeat 0 0;
+  content: "";
+  background: url("../img/banner-mask.png") no-repeat 0 0;
   position: absolute;
   height: 60px;
   width: 100%;
@@ -183,7 +183,7 @@ a {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: url('../img/banner-sign.png') no-repeat;
+  background: url("../img/banner-sign.png") no-repeat;
   height: 352px;
   width: 458px;
 }
@@ -296,7 +296,7 @@ a {
 }
 
 .info-icon::before {
-  content: '';
+  content: "";
   height: 76px;
   width: 75px;
   background-repeat: no-repeat;
@@ -305,15 +305,15 @@ a {
 }
 
 .info-icon-hotel::before {
-  background-image: url('../img/icon-1.png');
+  background-image: url("../img/icon-1.png");
 }
 
 .info-icon-food::before {
-  background-image: url('../img/icon-2.png');
+  background-image: url("../img/icon-2.png");
 }
 
 .info-icon-suvenir::before {
-  background-image: url('../img/icon-3.png');
+  background-image: url("../img/icon-3.png");
 }
 
 .summary-block-grey {
@@ -788,7 +788,7 @@ a {
   -ms-flex-pack: start;
   justify-content: flex-start;
   background-color: #242e30;
-  background: url('../img/fon-filter.jpg') no-repeat 50% 50%;
+  background: url("../img/fon-filter.jpg") no-repeat 50% 50%;
   min-height: 218px;
   margin-bottom: 28px;
 }
@@ -840,25 +840,25 @@ a {
 }
 
 .filter-check-label::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  background: url('../img/checkbox-off.png') no-repeat;
+  background: url("../img/checkbox-off.png") no-repeat;
   width: 27px;
   height: 23px;
   cursor: pointer;
 }
 
 .filter-check:checked + .filter-check-label::before {
-  background: url('../img/checkbox-on.png') no-repeat;
+  background: url("../img/checkbox-on.png") no-repeat;
 }
 
 .filter-check:disabled:checked + .filter-check-label::before {
-  background: url('../img/checkbox-on-block.png') no-repeat;
+  background: url("../img/checkbox-on-block.png") no-repeat;
 }
 
 .filter-check:disabled + .filter-check-label::before {
-  background: url('../img/checkbox-off-block.png') no-repeat;
+  background: url("../img/checkbox-off-block.png") no-repeat;
 }
 
 .filter-check:not(:disabled):focus + .filter-check-label {
@@ -895,7 +895,7 @@ a {
 
 .cost-wrap::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 2px;
   height: 22px;
   background-color: #fff;
@@ -910,7 +910,7 @@ a {
   border: none;
   width: 65px;
   background: none;
-  font-family: 'Pt Sans';
+  font-family: "Pt Sans";
   font-weight: bold;
   color: #fff;
   font-size: 14px;
@@ -938,7 +938,7 @@ a {
   position: absolute;
   background-color: #fff;
   border-radius: 50%;
-  background: url('../img/filter-toggle.png') no-repeat;
+  background: url("../img/filter-toggle.png") no-repeat;
   width: 20px;
   height: 22px;
   top: -9px;
@@ -1186,7 +1186,7 @@ a {
 .stars {
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background: URL('../img/stars.png') no-repeat;
+  background: URL("../img/stars.png") no-repeat;
   width: 40px;
   height: 17px
 }
